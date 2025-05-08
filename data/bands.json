@@ -1,0 +1,297 @@
+[  
+    {  
+        "name": "Echoed Horizons",  
+        "genre": "Rock",  
+        "description": "A dynamic rock band known for their powerful vocals and electrifying guitar solos."  
+    },  
+    {  
+        "name": "Blue Velvet Ensemble",  
+        "genre": "Jazz",  
+        "description": "A smooth jazz group that blends traditional and contemporary elements to create a unique sound."  
+    },  
+    {  
+        "name": "Iron Forge",  
+        "genre": "Metal",  
+        "description": "A heavy metal band with thunderous drums and intense guitar riffs that captivate audiences."  
+    },  
+    {  
+        "name": "Sunset Reverie",  
+        "genre": "Alternative",  
+        "description": "An alternative band with a dreamy, ethereal sound and introspective lyrics."  
+    },  
+    {  
+        "name": "Midnight Blues",  
+        "genre": "Blues",  
+        "description": "A blues band that channels raw emotion and soulful melodies into their music."  
+    },  
+    {  
+        "name": "Harmony’s Echo",  
+        "genre": "Classical",  
+        "description": "A classical ensemble that brings timeless pieces to life with precision and emotion."  
+    },  
+    {  
+        "name": "Rhythmic Tides",  
+        "genre": "Latin",  
+        "description": "A vibrant Latin band that infuses traditional rhythms with modern flair."  
+    },  
+    {  
+        "name": "Island Breeze",  
+        "genre": "Reggae",  
+        "description": "A reggae band that spreads positive vibes with their laid-back grooves and uplifting lyrics."  
+    },  
+    {  
+        "name": "Neon Dreams",  
+        "genre": "Pop",  
+        "description": "A pop group known for their catchy hooks and energetic performances."  
+    },  
+    {  
+        "name": "Crimson Echo",  
+        "genre": "Rock",  
+        "description": "A rock band with a raw edge and a passion for storytelling through music."  
+    },  
+    {  
+        "name": "Golden Swing Quartet",  
+        "genre": "Jazz",  
+        "description": "A jazz quartet that captures the golden age of swing with their lively performances."  
+    },  
+    {  
+        "name": "Steel Thunder",  
+        "genre": "Metal",  
+        "description": "A metal band that delivers a relentless onslaught of heavy riffs and powerful vocals."  
+    },  
+    {  
+        "name": "Velvet Skies",  
+        "genre": "Alternative",  
+        "description": "An alternative band with a smooth sound and a knack for creating atmospheric music."  
+    },  
+    {  
+        "name": "Delta Groove",  
+        "genre": "Blues",  
+        "description": "A blues band that brings the deep, soulful sounds of the Delta to the stage."  
+    },  
+    {  
+        "name": "Serenade Symphony",  
+        "genre": "Classical",  
+        "description": "A symphonic group that performs both classical masterpieces and contemporary compositions."  
+    },  
+    {  
+        "name": "Salsa Fusion",  
+        "genre": "Latin",  
+        "description": "A Latin band that blends salsa with various other genres to create a unique sound."  
+    },  
+    {  
+        "name": "Reggae Roots",  
+        "genre": "Reggae",  
+        "description": "A reggae band that stays true to the roots of the genre while adding their own twist."  
+    },  
+    {  
+        "name": "Starlight Pop",  
+        "genre": "Pop",  
+        "description": "A pop band known for their sparkling melodies and infectious energy."  
+    },  
+    {  
+        "name": "Firebird",  
+        "genre": "Rock",  
+        "description": "A rock band with a fiery passion for creating music that resonates with fans."  
+    },
+    {  
+        "name": "Echoed Horizons",  
+        "genre": "Rock",  
+        "description": "A dynamic rock band known for their powerful vocals and electrifying guitar solos."  
+    },  
+    {  
+        "name": "Blue Velvet Ensemble",  
+        "genre": "Jazz",  
+        "description": "A smooth jazz group that blends traditional and contemporary elements to create a unique sound."  
+    },  
+    {  
+        "name": "Iron Forge",  
+        "genre": "Metal",  
+        "description": "A heavy metal band with thunderous drums and intense guitar riffs that captivate audiences."  
+    },  
+    {  
+        "name": "Sunset Reverie",  
+        "genre": "Alternative",  
+        "description": "An alternative band with a dreamy, ethereal sound and introspective lyrics."  
+    },  
+    {  
+        "name": "Midnight Blues",  
+        "genre": "Blues",  
+        "description": "A blues band that channels raw emotion and soulful melodies into their music."  
+    },  
+    {  
+        "name": "Harmony’s Echo",  
+        "genre": "Classical",  
+        "description": "A classical ensemble that brings timeless pieces to life with precision and emotion."  
+    },  
+    {  
+        "name": "Rhythmic Tides",  
+        "genre": "Latin",  
+        "description": "A vibrant Latin band that infuses traditional rhythms with modern flair."  
+    },  
+    {  
+        "name": "Island Breeze",  
+        "genre": "Reggae",  
+        "description": "A reggae band that spreads positive vibes with their laid-back grooves and uplifting lyrics."  
+    },  
+    {  
+        "name": "Neon Dreams",  
+        "genre": "Pop",  
+        "description": "A pop group known for their catchy hooks and energetic performances."  
+    },  
+    {  
+        "name": "Crimson Echo",  
+        "genre": "Rock",  
+        "description": "A rock band with a raw edge and a passion for storytelling through music."  
+    },  
+    {  
+        "name": "Golden Swing Quartet",  
+        "genre": "Jazz",  
+        "description": "A jazz quartet that captures the golden age of swing with their lively performances."  
+    },  
+    {  
+        "name": "Steel Thunder",  
+        "genre": "Metal",  
+        "description": "A metal band that delivers a relentless onslaught of heavy riffs and powerful vocals."  
+    },  
+    {  
+        "name": "Velvet Skies",  
+        "genre": "Alternative",  
+        "description": "An alternative band with a smooth sound and a knack for creating atmospheric music."  
+    },  
+    {  
+        "name": "Delta Groove",  
+        "genre": "Blues",  
+        "description": "A blues band that brings the deep, soulful sounds of the Delta to the stage."  
+    },  
+    {  
+        "name": "Serenade Symphony",  
+        "genre": "Classical",  
+        "description": "A symphonic group that performs both classical masterpieces and contemporary compositions."  
+    },  
+    {  
+        "name": "Salsa Fusion",  
+        "genre": "Latin",  
+        "description": "A Latin band that blends salsa with various other genres to create a unique sound."  
+    },  
+    {  
+        "name": "Reggae Roots",  
+        "genre": "Reggae",  
+        "description": "A reggae band that stays true to the roots of the genre while adding their own twist."  
+    },  
+    {  
+        "name": "Starlight Pop",  
+        "genre": "Pop",  
+        "description": "A pop band known for their sparkling melodies and infectious energy."  
+    },  
+    {  
+        "name": "Firebird",  
+        "genre": "Rock",  
+        "description": "A rock band with a fiery passion for creating music that resonates with fans."  
+    },  
+    {  
+        "name": "Smooth Jazz Collective",  
+        "genre": "Jazz",  
+        "description": "A jazz collective that brings smooth, sophisticated sounds to every performance."
+    },
+    {  
+        "name": "Crimson Cascade",  
+        "genre": "Rock",  
+        "description": "A rock band that blends classic rock influences with modern soundscapes."  
+    },  
+    {  
+        "name": "Melodic Voyage",  
+        "genre": "Jazz",  
+        "description": "A jazz band known for their intricate compositions and improvisational prowess."  
+    },  
+    {  
+        "name": "Thunderstrike",  
+        "genre": "Metal",  
+        "description": "A metal band that delivers high-energy performances with aggressive guitar riffs and powerful vocals."  
+    },  
+    {  
+        "name": "Lunar Echoes",  
+        "genre": "Alternative",  
+        "description": "An alternative band that explores the boundaries of sound with their experimental approach."  
+    },  
+    {  
+        "name": "Whiskey River",  
+        "genre": "Blues",  
+        "description": "A blues band that channels the spirit of the Mississippi Delta with their gritty and soulful music."  
+    },  
+    {  
+        "name": "Celestial Strings",  
+        "genre": "Classical",  
+        "description": "A classical ensemble that performs both well-loved classics and new compositions with elegance and precision."  
+    },  
+    {  
+        "name": "Samba Fiesta",  
+        "genre": "Latin",  
+        "description": "A Latin band that brings the infectious rhythms of samba to every performance."  
+    },  
+    {  
+        "name": "Dub Vibes",  
+        "genre": "Reggae",  
+        "description": "A reggae band that creates deep, dub-influenced tracks with a modern twist."  
+    },  
+    {  
+        "name": "Electric Pulse",  
+        "genre": "Pop",  
+        "description": "A pop band known for their electrifying performances and catchy, upbeat songs."  
+    },  
+    {  
+        "name": "Silver Phoenix",  
+        "genre": "Rock",  
+        "description": "A rock band that rises from the ashes with powerful anthems and unforgettable melodies."  
+    },  
+    {  
+        "name": "Midnight Serenade",  
+        "genre": "Jazz",  
+        "description": "A jazz band that serenades audiences with smooth melodies and soulful improvisation."  
+    },  
+    {  
+        "name": "Metallic Fury",  
+        "genre": "Metal",  
+        "description": "A metal band that unleashes a storm of heavy riffs and thunderous drums with every performance."  
+    },  
+    {  
+        "name": "Ethereal Echoes",  
+        "genre": "Alternative",  
+        "description": "An alternative band that creates dreamy, atmospheric music with haunting vocals and lush instrumentation."  
+    },  
+    {  
+        "name": "Delta Blues Collective",  
+        "genre": "Blues",  
+        "description": "A blues collective that pays homage to the rich history of the Delta blues tradition."  
+    },  
+    {  
+        "name": "Harmonious Symphony",  
+        "genre": "Classical",  
+        "description": "A symphonic group that performs classical masterpieces with passion and precision."  
+    },  
+    {  
+        "name": "Tropical Rhythms",  
+        "genre": "Latin",  
+        "description": "A Latin band that brings the vibrant rhythms of the tropics to every performance."  
+    },  
+    {  
+        "name": "Roots Revival",  
+        "genre": "Reggae",  
+        "description": "A reggae band that celebrates the roots of the genre with authentic grooves and positive vibes."  
+    },  
+    {  
+        "name": "Stardust Pop",  
+        "genre": "Pop",  
+        "description": "A pop band that sparkles with infectious energy and catchy melodies."  
+    },  
+    {  
+        "name": "Echoed Horizons",  
+        "genre": "Rock",  
+        "description": "A dynamic rock band known for their powerful vocals and electrifying guitar solos."  
+    },  
+    {  
+        "name": "Blue Velvet Ensemble",  
+        "genre": "Jazz",  
+        "description": "A smooth jazz group that blends traditional and contemporary elements to create a unique sound."  
+    }
+]
