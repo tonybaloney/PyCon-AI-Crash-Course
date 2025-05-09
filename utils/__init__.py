@@ -2,7 +2,7 @@ import dotenv
 import os
 dotenv.load_dotenv()
 
-MODE = os.getenv("MODE", "dev")
+MODE = os.getenv("MODE", "github")
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/v1/")
 
 def get_api_key():

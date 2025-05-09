@@ -5,3 +5,4 @@ transformers
 huggingface_hub[xet]
 python-dotenv
 pandas
+pydantic
