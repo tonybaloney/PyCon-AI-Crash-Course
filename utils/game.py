@@ -61,9 +61,36 @@ SEQUENCE_VALUE = {
             '10': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14
         }
 
+SEQUENCE_VALUE_VERBOSE = {
+    "two": 2,
+    "three": 3,
+    "four": 4,
+    "five": 5,
+    "six": 6,
+    "seven": 7,
+    "eight": 8,
+    "nine": 9,
+    "ten": 10,
+    "jack": 11,
+    "queen": 12,
+    "king": 13,
+    "ace": 14
+}
+
+SEQUENCE_VALUES = SEQUENCE_VALUE | SEQUENCE_VALUE_VERBOSE
+
 SUIT_RANK = {
             'spades': 1, 'diamonds': 2, 'hearts': 3, 'clubs': 4
         }
+
+SUIT_RANK_VERBOSE = {
+    "♠": 1,
+    "♦": 2,
+    "♥" : 3,
+    "♣": 4,
+}
+
+SUIT_RANKS = SUIT_RANK | SUIT_RANK_VERBOSE
 
 def determine_winner_programmatically(player_cards: dict[str, str]) -> str:
     """
@@ -77,8 +104,8 @@ def determine_winner_programmatically(player_cards: dict[str, str]) -> str:
         value1, _, suit1 = player1.split(' ')
         value2, _, suit2 = player2.split(' ')
 
-        value1 = SEQUENCE_VALUE[value1]
-        value2 = SEQUENCE_VALUE[value2]
+        value1 = SEQUENCE_VALUES[value1]
+        value2 = SEQUENCE_VALUES[value2]
 
         suit1 = suit1.lower()
         suit2 = suit2.lower()
@@ -88,7 +115,7 @@ def determine_winner_programmatically(player_cards: dict[str, str]) -> str:
             # If both cards are of the same element, the higher value wins
             return player1 if value1 > value2 else player2
         
-        return player1 if (SUIT_RANK[suit1] - SUIT_RANK[suit2]) % 4 == 1 else player2
+        return player1 if (SUIT_RANKS[suit1] - SUIT_RANKS[suit2]) % 4 == 1 else player2
     
     # Convert the players into a list of tuples (player, card)
     player_cards_sequence = list(player_cards.items())
