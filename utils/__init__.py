@@ -3,6 +3,7 @@ import os
 dotenv.load_dotenv()
 
 MODE = os.getenv("MODE", "dev")
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/v1/")
 
 def get_api_key():
     if MODE == "ollama":
@@ -15,7 +16,7 @@ def get_api_key():
 
 def get_base_url():
     if MODE == "ollama":
-        return os.getenv("BASE_URL", "http://localhost:11434/v1/")
+        return os.getenv("BASE_URL", OLLAMA_URL)
     elif MODE == "github":
         return os.getenv("GITHUB_API_URL", "https://models.github.ai/inference")
     else:
