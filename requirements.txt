@@ -6,3 +6,4 @@ huggingface_hub[xet]
 python-dotenv
 pandas
 pydantic
+pydantic-ai-slim[openai,evals]

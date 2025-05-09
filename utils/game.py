@@ -159,3 +159,16 @@ def make_training_data_csv():
             players, winner = data
             f.write(f"{players['Player 1']},{players['Player 2']},{players['Player 3']},{winner}\n")
 
+
+def deal():
+    # Build a deck of cards
+    suits = ['spades', 'diamonds', 'hearts', 'clubs']
+    values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+    deck = [f"{value} of {suit}" for suit in suits for value in values]
+
+    # Shuffle the deck
+    random.shuffle(deck)
+
+    while deck:
+        yield deck.pop(0)
+
