@@ -114,8 +114,12 @@ def determine_winner_programmatically(player_cards: dict[str, str]) -> str:
         if suit1 == suit2:
             # If both cards are of the same element, the higher value wins
             return player1 if value1 > value2 else player2
+        if SUIT_RANKS[suit1] > SUIT_RANKS[suit2]:
+            # If the first card's element beats the second card's element, the first player wins
+            return player1
+        # If the second card's element beats the first card's element, the second player wins
+        return player2
         
-        return player1 if (SUIT_RANKS[suit1] - SUIT_RANKS[suit2]) % 4 == 1 else player2
     
     # Convert the players into a list of tuples (player, card)
     player_cards_sequence = list(player_cards.items())
