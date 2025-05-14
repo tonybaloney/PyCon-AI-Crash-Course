@@ -40,7 +40,6 @@ The players eliminate each other with the following rules:
 - Fire beats Air
 - Air beats Earth
 - Earth beats Water
-- Water beats Fire
 
 If there is a tie (two or more players play cards with the same element), the value determines the winner (e.g. 7 beats 3):
 
@@ -80,14 +79,14 @@ SEQUENCE_VALUE_VERBOSE = {
 SEQUENCE_VALUES = SEQUENCE_VALUE | SEQUENCE_VALUE_VERBOSE
 
 SUIT_RANK = {
-            'spades': 1, 'diamonds': 2, 'hearts': 3, 'clubs': 4
+            'spades': 4, 'diamonds': 3, 'hearts': 2, 'clubs': 1
         }
 
 SUIT_RANK_VERBOSE = {
-    "♠": 1,
-    "♦": 2,
-    "♥" : 3,
-    "♣": 4,
+    "♠": 4,
+    "♦": 3,
+    "♥" : 2,
+    "♣": 1,
 }
 
 
@@ -125,10 +124,10 @@ def determine_winner_programmatically(player_cards: dict[str, str]) -> str:
         if suit1 == suit2:
             # If both cards are of the same element, the higher value wins
             return player1 if value1 > value2 else player2
-        if SUIT_RANKS[suit1] > SUIT_RANKS[suit2]:
+        elif SUIT_RANKS[suit1] > SUIT_RANKS[suit2]:
             # If the first card's element beats the second card's element, the first player wins
             return player1
-        # If the second card's element beats the first card's element, the second player wins
+
         return player2
         
     
