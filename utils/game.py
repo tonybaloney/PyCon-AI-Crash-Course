@@ -90,17 +90,28 @@ SUIT_RANK_VERBOSE = {
     "♣": 4,
 }
 
+
 SUIT_RANKS = SUIT_RANK | SUIT_RANK_VERBOSE
 
 def determine_winner_programmatically(player_cards: dict[str, str]) -> str:
     """
     Determine the winner of a round based on the players' choices and their cards.
+
+    Args:
+        player_cards (dict): A dictionary where keys are player names and values are their chosen cards.
+        Example: {"Player 1": "2 of spades", "Player 2": "3 of diamonds"}
+    Returns:
+        str: The name of the winning player.
     """
     
     def winner_of(player1: str, player2: str) -> str:
         """
         Determine the winner between two players based on their chosen cards.
         """
+        if not isinstance(player1, str) or not isinstance(player2, str):
+            player1 = repr(player1)
+            player2 = repr(player2)
+
         value1, _, suit1 = player1.split(' ')
         value2, _, suit2 = player2.split(' ')
 
