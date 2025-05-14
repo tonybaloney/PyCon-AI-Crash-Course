@@ -1,6 +1,7 @@
 import dotenv
 import os
-dotenv.load_dotenv()
+
+dotenv.load_dotenv(override=True)
 
 MODE = os.getenv("MODE", "github")
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/v1/")
