@@ -79,7 +79,7 @@ SEQUENCE_VALUE_VERBOSE = {
 SEQUENCE_VALUES = SEQUENCE_VALUE | SEQUENCE_VALUE_VERBOSE
 
 SUIT_RANK = {
-            'spades': 4, 'diamonds': 3, 'hearts': 2, 'clubs': 1
+            'spades': 4, 'diamonds': 1, 'hearts': 2, 'clubs': 3
         }
 
 SUIT_RANK_VERBOSE = {
