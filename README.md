@@ -6,11 +6,19 @@ This repo contains the exercises for Anthony Shaw's PyCon US Tutorial **AI Crash
 
 You will need Jupyter to run these exercises. I recommend installing the [Jupyter Extension](https://marketplace.visualstudio.com/items/?itemName=ms-toolsai.jupyter) in VS Code if you don't already have a Jupyter environment
 
-After that, you'll need to create a virtual environment and install the packages in `requirements.txt`
+After that, you'll need to create a virtual environment and install the packages in `requirements.txt`:
 
 ```bash
 $ pip install -r requirements.txt
 ```
+
+## Lessons
+
+These are the three primary lessons we will be working through:
+
+* [Lesson 1: LLMs, tokenizers, and prompts](lesson1.ipynb)
+* [Lesson 2: Embedding models](lesson2.ipynb)
+* [Lesson 3: Function, tools, and agents](lesson3.ipynb)
 
 ## Customizing Game Play
 
@@ -20,5 +28,5 @@ This repo contains multiple references to a made-up game. If you want to customi
 1. Modify `utils/game.py` and update `determine_winner_programmatically()` with your new logic
 1. Run `make_training_data_csv()` in `utils/game.py` to make a new `utils/game_training.csv` file
 
-Note this isn't required, but if you want to do this yourself later on.
+Note this isn't required, but you want to do this yourself later on.
 
